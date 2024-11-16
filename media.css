@@ -1,0 +1,189 @@
+@media screen and (max-width: 678px) {
+  .page1 nav {
+    padding: 20px;
+  }
+  nav .logo span {
+    font-size: 25px;
+  }
+  .logo span span {
+    font-size: 35px;
+  }
+  .menu, .icons  {
+    display: initial;
+    font-size: 25px;
+  }
+  .page1 .nav-pills {
+    display: none;
+  }
+  .page1 .buttons {
+    display: none;
+  }
+  header {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .heading {
+    width: 100%;
+  }
+  .heading h1 {
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .social {
+    width: 100%;
+  }
+  .social h2 {
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .social h2 span {
+    top: 25px;
+  }
+  .social p {
+    width: 90%;
+  }
+  .page2 {
+    margin-top: 30%;
+  }
+  .content {
+    flex-direction: column;
+  }
+  .content h2 {
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+  }
+  .content ul{
+    width: 100%;
+
+  }
+  ul .list{
+    display: block;
+    margin-bottom: 15px;
+  }
+  .list i{
+    display: inline-block;
+    padding: 0;
+    margin-right: 2%;
+    font-size: 18px;
+  }
+  .list li{
+    display: inline;
+    font-size: 12px;
+  }
+  .infor{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding: 3%;
+    gap: 10px;
+  }
+  .infor .info{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .infor .info h1{
+    font-size: 16px;
+  }
+  .infor .info h3{
+    font-size: 12px;
+  }
+  .page3{
+    padding-top: 20%;
+  }
+  .page3 h1{
+    width: 100%;
+    font-size: 25px;
+    margin-bottom: 5%;
+  }
+  .page3 .courses{
+    width: 100%;
+    padding: 0px;
+  }
+  .page3 .courses span{
+    font-size: 14px;
+    margin: 3px;
+  }
+  .page3 .video{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .box p{
+    font-size: 10px;
+  }
+  .page4 > h1{
+    font-size: 22px;
+  }
+  .page4 > p{
+    font-size: 14px;
+    width: 100%;
+  }
+  .page4 .card{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .head h1{
+    font-size: 20px;
+  }
+  .head p{
+    font-size: 14px;
+  }
+  .page5 h1,
+.page5 p{
+    width: 90%;
+}
+.page5 p{
+    font-size: 15px;
+}
+.page5 .heading{
+    font-size: 20px;
+}
+.page5 h2{
+    font-size: 16px;
+}
+.page6 .skillshare{
+    flex-direction: column;
+    align-items: center;
+}
+.skillshare .teams{
+    width: 90%;
+}
+.teams h1{
+    font-size: 27px;
+}
+.teams p{
+    font-size: 16px;
+    text-align: center;
+}
+.teams button{
+    margin: auto;
+}
+.image{
+    width: 100%;
+}
+.image img{
+    width: 100%;
+}
+.question h1{
+    font-size: 30px;
+}
+.question .list{
+    width: 90%;
+}
+.question .list i{
+    font-size: 20px;
+}
+.social-links{
+    gap: 10px;
+}
+.follow img{
+    width: 30px;
+}
+.follow p{
+    margin-bottom: 10%;
+}
+}

@@ -18,6 +18,9 @@ body {
   background-color: #fff;
   background-attachment: fixed;
 }
+.menu{
+  display: none;
+}
 .page1 nav {
   width: 100%;
   display: flex;
@@ -73,6 +76,9 @@ nav .nav-pills {
   position: absolute;
   left: 7px;
   font-size: 25px;
+}
+.icons{
+  display: none;
 }
 .buttons {
   display: flex;
@@ -263,7 +269,6 @@ ul .list {
 }
 .page3 .courses {
   width: 95%;
-
   padding: 60px;
   margin: auto;
 }
@@ -343,7 +348,7 @@ ul .list {
   justify-content: center;
   align-items: center;
   margin-top: 10%;
-  color: #59f966;
+  color: #000;
   gap: 30px;
 }
 .page5 h1,
