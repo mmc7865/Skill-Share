@@ -308,10 +308,10 @@ ul .list {
   background: #000;
   color: #fff;
 }
-.page4 h1 {
+.page4 > h1 {
   text-align: center;
 }
-.page4 p {
+.page4 > p {
   width: 58%;
   text-align: center;
   margin: auto;
